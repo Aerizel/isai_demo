@@ -592,6 +592,7 @@ ul.email li i {
 
 .content-one .titlepage .topic{
      display: flex;
+     padding-bottom: 29px;
 
      .section-one,
      .section-two {
@@ -609,19 +610,10 @@ ul.email li i {
 }
 
 .content-one figure img {
-     width: 450px;
+     width: 500px;
      margin-bottom: -11px;
 }
 
-.content-one .read_more {
-     color: #fff;
-     background: #3e0bce;
-}
-
-.content-one .read_more:hover {
-     color: #f0390f;
-     background: #3e0bce;
-}
 
 /** --------------content-two---------------- **/
 
@@ -650,18 +642,15 @@ ul.email li i {
      padding-bottom: 29px;
 }
 
-.content-two .shop_img {
-     width: 750px;
-     padding-left: 150px;
-}
-
-.content-two .shop_img figure {
+.content-two figure {
      margin: 0;
 }
 
-.content-two .titlepage .read_more::before {
-     left: 89px;
+.content-two figure img{
+     width: 650px;     
 }
+
+
 
 /** --------------content-three---------------- **/
 .content-three {
@@ -764,7 +753,7 @@ ul.email li i {
 
 .content-four .titlepage .topic{
      display: flex;
-     padding-bottom: 30px;
+     padding-bottom: 20px;
      .section-one,
      .section-two {
           flex: 1;
@@ -772,24 +761,58 @@ ul.email li i {
      }
 }
 
-.content-fout .titlepage .track {
-
+.content-four .titlepage .track {
+     padding-bottom: 29px;
      h2 {
           padding-bottom: 0px;
           color: #2d2c2c;
      }
 }
 
-.content-four .shop_img {
-     width: 700px;
-     padding-left: 200px;
-}
-
-.content-four .shop_img figure {
+.content-four figure {
      margin: 0;
 }
 
-.content-four .titlepage .read_more::before {
+.content-four figure img {
+     width: 550px;
+}
+
+/** --------------content-six---------------- **/
+
+.content-six {
+     background: #fff;
+     padding-top: 90px;
+     padding-bottom: 90px;
+}
+
+.content-six .titlepage {
+     padding-bottom: 0;
+     max-width: 458px;
+     float: left;
+}
+
+.content-six .titlepage h2 {
+     padding-bottom: 30px;
+     color: #2d2c2c;
+}
+
+.content-six .titlepage p {
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 30px;
+     color: #282828;
+     padding-bottom: 29px;
+}
+
+.content-six {
+     padding-left: 40px;
+}
+
+.content-six figure {
+     margin: 0;
+}
+
+.content-six .titlepage .read_more::before {
      left: 89px;
 }
 
