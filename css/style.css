@@ -560,7 +560,7 @@ ul.email li i {
      background-repeat: no-repeat;
      background-attachment: fixed;
      padding-top: 90px;
-     
+     padding-bottom: 90px;
 }
 
 .content-one .titlepage {
@@ -601,7 +601,7 @@ ul.email li i {
 }
 
 .content-one figure img {
-     width: 100%;
+     width: 60%;
      margin-bottom: -11px;
 }
 
