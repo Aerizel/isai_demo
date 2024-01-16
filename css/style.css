@@ -609,7 +609,7 @@ ul.email li i {
 }
 
 .content-one figure img {
-     width: 60%;
+     width: 450px;
      margin-bottom: -11px;
 }
 
@@ -623,6 +623,46 @@ ul.email li i {
      background: #3e0bce;
 }
 
+/** --------------content-two---------------- **/
+
+.content-two {
+     background: #fff;
+     padding-top: 90px;
+     padding-bottom: 90px;
+}
+
+.content-two .titlepage {
+     padding-bottom: 0;
+     max-width: 458px;
+     float: left;
+}
+
+.content-two .titlepage h2 {
+     padding-bottom: 30px;
+     color: #2d2c2c;
+}
+
+.content-two .titlepage p {
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 30px;
+     color: #282828;
+     padding-bottom: 29px;
+}
+
+.content-two .shop_img {
+     width: 750px;
+     padding-left: 150px;
+}
+
+.content-two .shop_img figure {
+     margin: 0;
+}
+
+.content-two .titlepage .read_more::before {
+     left: 89px;
+}
+
 /** --------------content-three---------------- **/
 .content-three {
      background: url(../images/about_bg.jpg);
@@ -631,7 +671,7 @@ ul.email li i {
      background-repeat: no-repeat;
      background-attachment: fixed;
      padding-top: 90px;
-
+     padding-bottom: 90px;
 }
 
 .content-three .titlepage {
@@ -681,9 +721,9 @@ ul.email li i {
 }
 
 .content-three figure img {
-     width: 100%;
-     margin-bottom: -11px;
+     width: 580px;
      height: auto;
+     right: 0px;
 }
 
 .content-three .read_more {
@@ -741,8 +781,8 @@ ul.email li i {
 }
 
 .content-four .shop_img {
-     width: 90%;
-     padding-left: 40px;
+     width: 700px;
+     padding-left: 200px;
 }
 
 .content-four .shop_img figure {
@@ -751,6 +791,45 @@ ul.email li i {
 
 .content-four .titlepage .read_more::before {
      left: 89px;
+}
+
+/** --------------content-seven---------------- **/
+.content-seven {
+     background: url(../images/about_bg.jpg);
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     padding-top: 90px;
+     padding-bottom: 90px;
+}
+
+.content-seven .titlepage {
+     padding-bottom: 0;
+     max-width: 554px;
+     float: right;
+}
+
+.content-seven .titlepage h2 {
+     padding-bottom: 30px;
+     color: #fff;
+}
+
+.content-seven .titlepage h4 {
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 30px;
+     color: #fff;
+     padding-bottom: 20px;
+}
+
+
+.content-seven figure {
+     margin: 0;
+}
+
+.content-seven figure img {
+     width: 550px;
 }
 
 
@@ -762,7 +841,7 @@ ul.email li i {
      background-repeat: no-repeat;
      background-attachment: fixed;
      padding-top: 90px;
-     
+     padding-bottom: 90px;
 }
 
 .content-eight .titlepage {
@@ -785,7 +864,7 @@ ul.email li i {
 }
 
 .content-eight .titlepage .ps p {
-     padding-top: 15px;
+     padding-top: 20px;
      padding-bottom: 10px;
      font-size: 25px;
      font-weight: bold;
@@ -811,8 +890,8 @@ ul.email li i {
 }
 
 .content-eight figure img {
-     width: 100%;
-     padding-left: 40px;
+     width: 650px;
+     padding-left: 30px;
 }
 
 .content-eight .read_more {
