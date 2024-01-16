@@ -750,13 +750,13 @@ ul.email li i {
 }
 
 .content-eight .read_more {
-     color: #fff;
-     background: #3e0bce;
+     color: #282828;
+     background: #ffffff;
 }
 
 .content-eight .read_more:hover {
-     color: #f0390f;
-     background: #3e0bce;
+     color: #282828;
+     background: #ffffff;
 }
 
 /** end about section **/
