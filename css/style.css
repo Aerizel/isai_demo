@@ -558,8 +558,22 @@ ul.email li i {
 
 
 /** end our class **/
-
-
+/**  table **/
+table {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+ }
+ 
+ td, th {
+     border: 1px solid #dddddd;
+     text-align: left;
+     padding: 8px;
+ }
+ 
+ tr:nth-child {
+     background-color: #dddddd;
+ }
 /** --------------content-one---------------- **/
 .content-one {
      background: url(../images/about_bg.jpg);
