@@ -553,7 +553,6 @@ ul.email li i {
 
 /** about section **/
 
-/** --------------content-one---------------- **/
 .content-one {
      background: url(../images/about_bg.jpg);
      background-size: cover;
@@ -832,7 +831,9 @@ ul.email li i {
 
 
 /** end shop section **/
-
+li {
+     display: list-item;
+   }
 
 /** testimonial **/
 
