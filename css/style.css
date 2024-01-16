@@ -553,7 +553,7 @@ ul.email li i {
 
 /** about section **/
 
-.about {
+.content-one {
      background: url(../images/about_bg.jpg);
      background-size: cover;
      background-position: center center;
@@ -563,40 +563,54 @@ ul.email li i {
      
 }
 
-.about .titlepage {
+.content-one .titlepage {
      padding-bottom: 0;
      max-width: 554px;
      float: right;
 }
 
-.about .titlepage h2 {
+.content-one .titlepage h2 {
      padding-bottom: 30px;
      color: #fff;
 }
 
-.about .titlepage p {
+.content-one .titlepage h4 {
      font-weight: 400;
      font-size: 17px;
      line-height: 30px;
      color: #fff;
-     padding-bottom: 29px;
+     padding-bottom: 20px;
 }
 
-.about_img figure {
+.content-one .titlepage .topic{
+     display: flex;
+
+     .section-one,
+     .section-two {
+          flex: 1;
+          padding: 10;
+
+          ul li {
+               color:white;
+          }
+     }
+}
+
+.content-one figure {
      margin: 0;
 }
 
-.about_img figure img {
+.content-one figure img {
      width: 100%;
      margin-bottom: -11px;
 }
 
-.about .read_more {
+.content-one .read_more {
      color: #fff;
      background: #3e0bce;
 }
 
-.about .read_more:hover {
+.content-one .read_more:hover {
      color: #f0390f;
      background: #3e0bce;
 }
