@@ -1367,7 +1367,61 @@ ul.social_icon li a:hover {
 }
 
 
-/** contact **/
+/** oganization & contact(old) **/
+
+.committee .container-fluid{
+     padding-top: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.committee .titlepage{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.committee .titlepage h2 {
+     text-align: center;
+     padding-bottom: 50px;
+}
+
+.committee .titlepage p {
+     font-weight: bold;
+}
+
+.committee .titlepage .text-detail {
+     gap: 200px;
+     display: flex;
+     flex-direction: row;
+}
+
+.committee .titlepage .left-section {
+     display: flex;
+     flex-direction: column;
+}
+
+.committee .titlepage .right-section {
+     display: flex;
+     flex-direction: column;
+}
+
+/*.committee .titlepage .topic{
+     display: flex;
+     padding-bottom: 29px;
+
+     .section-one,
+     .section-two {
+          flex: 1;
+          padding: 10;
+
+          ul li {
+               color:white;
+          }
+     }
+}*/
 
 .contact {
      background: #fcfcfc;
