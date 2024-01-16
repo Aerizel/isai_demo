@@ -553,7 +553,6 @@ ul.email li i {
 
 /** about section **/
 
-/** --------------content-one---------------- **/
 .content-one {
      background: url(../images/about_bg.jpg);
      background-size: cover;
@@ -646,7 +645,15 @@ ul.email li i {
      padding-bottom: 20px;
 }
 
-.content-one .titlepage .topic{
+.content-three .titlepage .ps p {
+     padding-top: 15px;
+     padding-bottom: 10px;
+     font-size: 25px;
+     font-weight: bold;
+     color: #fff;
+}
+
+.content-three .titlepage .topic{
      display: flex;
 
      .section-one,
@@ -678,6 +685,77 @@ ul.email li i {
 .content-three .read_more:hover {
      color: #f0390f;
      background: #3e0bce;
+}
+
+/** --------------content-eight---------------- **/
+.content-eight {
+     background: #fff;
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     padding-top: 90px;
+     
+}
+
+.content-eight .titlepage {
+     padding-bottom: 0;
+     max-width: 458px;
+     float: left;
+}
+
+.content-eight .titlepage h2 {
+     padding-bottom: 30px;
+     color: #2d2c2c;
+}
+
+.content-eight .titlepage h4 {
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 30px;
+     color: #282828;
+     padding-bottom: 20px;
+}
+
+.content-eight .titlepage .ps p {
+     padding-top: 15px;
+     padding-bottom: 10px;
+     font-size: 25px;
+     font-weight: bold;
+     color: #282828;
+}
+
+.content-eight .titlepage .topic{
+     display: flex;
+
+     .section-one,
+     .section-two {
+          flex: 1;
+          padding: 10;
+
+          ul li {
+               color:#282828;
+          }
+     }
+}
+
+.content-eight figure {
+     margin: 0;
+}
+
+.content-eight figure img {
+     width: 100%;
+     padding-left: 40px;
+}
+
+.content-eight .read_more {
+     color: #282828;
+     background: #ffffff;
+}
+
+.content-eight .read_more:hover {
+     color: #282828;
+     background: #ffffff;
 }
 
 /** end about section **/
@@ -753,7 +831,9 @@ ul.email li i {
 
 
 /** end shop section **/
-
+li {
+     display: list-item;
+   }
 
 /** testimonial **/
 
