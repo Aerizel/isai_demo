@@ -769,6 +769,14 @@ ul.email li i {
      }
 }
 
+.content-four figure {
+     margin: 0;
+}
+
+.content-four figure img {
+     width: 550px;
+}
+
 /** --------------content-six---------------- **/
 
 .content-six {
